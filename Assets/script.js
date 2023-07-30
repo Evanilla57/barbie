@@ -13,6 +13,9 @@ $(document).ready(function () {
     localStorage.setItem(hour, textArea);
   });
 
+  function loadEvent () {
+    $('#hour-' + [i] + '.description').val(localStorage.getItem('hour-' + [i]));
+  }
   
     // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
