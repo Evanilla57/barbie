@@ -1,4 +1,5 @@
 var todayDate = dayjs();
+var timeBlock = $('.time-block');
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
@@ -14,9 +15,15 @@ $(document).ready(function () {
   });
 
   function loadEvent () {
-    $('#hour-' + [i] + '.description').val(localStorage.getItem('hour-' + [i]));
+    var i = 9;
+    timeBlock.each(function () {
+    $('#hour-' +[i]+ ' .description').val(localStorage.getItem('hour-' +[i]));
+    i++;
+  })
   }
   
+  loadEvent();
+
     // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
   // local storage. HINT: What does `this` reference in the click listener
