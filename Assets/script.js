@@ -1,5 +1,6 @@
 var todayDate = dayjs();
 var timeBlock = $('.time-block');
+var currentHour = parseInt(dayjs().format('H'));
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
@@ -18,6 +19,15 @@ $(document).ready(function () {
     var i = 9;
     timeBlock.each(function () {
     $('#hour-' +[i]+ ' .description').val(localStorage.getItem('hour-' +[i]));
+    if (currentHour === i) {
+      $(this).addClass('present');
+    }
+    else if (currentHour > i) {
+      $(this).addClass('past');
+    }
+    else {
+      $(this).addClass('future');
+    }
     i++;
   })
   }
