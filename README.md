@@ -2,9 +2,7 @@
 
 ## Description
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+As someone who is currently balancing school and work, I was eager to create a calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm). For this project, I was given starting code to work with. I was able to leverage the [Day.js](https://day.js.org/en/) library to work with date and time.I then spent time developing dynamically updated HTML and CSS powered by jQuery that will run in the browser.
 
 ## Tasks
 
