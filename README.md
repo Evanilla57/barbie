@@ -41,6 +41,7 @@ GitHub Repo Page:
 ## Credits
 
 - Robert Ambriz - assisted in streamlining the loadEvent(); function
+- Starting Code provided by Coding Boot Camp - UCR Extension
 
 ## License
 
