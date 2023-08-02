@@ -33,8 +33,8 @@ The following animation demonstrates the application functionality:
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
 ## Links
-Deployed Webpage: 
-GitHub Repo Page: 
+Deployed Webpage: https://evanilla57.github.io/barbie/
+GitHub Repo Page: https://github.com/Evanilla57/barbie
 
 ## Credits
 
